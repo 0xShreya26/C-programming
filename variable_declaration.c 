@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main( )
+{
+	int a; //variable declaration
+	int b;
+	int c;
+	//int & ... can not write like it in C 
+	//int thus is shreya.. can not write like it here
+	return 0;
+}
