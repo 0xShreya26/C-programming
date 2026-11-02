@@ -9,9 +9,8 @@ int main ( )
 	else if(x<=800000)
 	printf("the income tax amount is %f",(x-400000)*0.05);
 	else if(x<=1200000)
-	printf("the income tax amount is %f",(x-800000)*0.10);
+	printf("the income tax amount is %f",20000+(x-800000)*0.10);
 	else 
-	printf("the income tax amount is %f", (x-1200000)*0.15);
-     printf("the total tax amount is %f %f %f %f", 0.00+(x*0.05)+(x*0.10)+(x*0.15));
+	printf("the income tax amount is %f",60000+(x-1200000)*0.15);
      return 0;
 }
